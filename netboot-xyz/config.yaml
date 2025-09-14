@@ -1,6 +1,6 @@
-name: Netboot.xyz
-version: 1.9.0
-slug: netboot-xyz
+name: Netboot.xyz-jn
+version: 1.9.1
+slug: netboot-xyz-jn
 description: PXE-Server to deploy a OS inside your local network
 url: https://github.com/FaserF/hassio-addons/tree/master/netboot-xyz
 arch:
@@ -8,7 +8,7 @@ arch:
   - armv7
   - aarch64
   - amd64
-image: ghcr.io/faserf/netboot-xyz-{arch}
+image: ghcr.io/J-N/netboot-xyz-{arch}
 host_network: true
 #webui: http://[HOST]:[PORT:3000]
 ingress: true
@@ -22,7 +22,7 @@ panel_icon: mdi:download-network
 options:
   path: "/media/netboot/image"
   path_config: "/media/netboot/config"
-  dhcp_range: 192.168.178.200
+  dhcp_range: 192.168.1.144
 schema:
   path: str
   path_config: str

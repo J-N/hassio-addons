@@ -17,7 +17,7 @@ on:
 
 jobs:
   correct_path_filters:
-    if: github.repository_owner == 'FaserF'
+    if: github.repository_owner == 'J-N'
     runs-on: ubuntu-latest
     steps:
       - name: ↩️ Checkout
