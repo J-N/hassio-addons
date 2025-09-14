@@ -4,7 +4,7 @@
 name: Builder
 
 env:
-  BUILD_ARGS: "--test"
+  BUILD_ARGS: ""
 
 on:
   push:
@@ -206,7 +206,7 @@ jobs:
         uses: smartsquaregmbh/delete-old-packages@v0.8.1
         continue-on-error: true
         with:
-          user: FaserF
+          user: ${{ github.repository_owner }}
           type: container
           keep: 0
           names: |
