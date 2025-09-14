@@ -1,6 +1,6 @@
-name: Netboot.xyz-jn
-version: 1.9.1
-slug: netboot-xyz-jn
+name: Netboot.xyz
+version: 1.9.2
+slug: netboot-xyz
 description: PXE-Server to deploy a OS inside your local network
 url: https://github.com/J-N/hassio-addons/tree/master/netboot-xyz
 arch:
