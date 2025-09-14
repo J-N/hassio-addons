@@ -8,7 +8,7 @@ This repository contains custom add-ons for [Home Assistant OS](https://www.home
 
 ## 🚀 Installation
 
-[![Install Repository](https://my.home-assistant.io/badges/supervisor_add_addon_repository.svg)](https://my.home-assistant.io/redirect/supervisor_add_addon_repository/?repository_url=https%3A%2F%2Fgithub.com%2FFaserF%2Fhassio-addons)
+[![Install Repository](https://my.home-assistant.io/badges/supervisor_add_addon_repository.svg)](https://my.home-assistant.io/redirect/supervisor_add_addon_repository/?repository_url=https%3A%2F%2Fgithub.com%2J-N%2Fhassio-addons)
 
 To install, click the badge above or manually add the repository URL in Home Assistant:
 
