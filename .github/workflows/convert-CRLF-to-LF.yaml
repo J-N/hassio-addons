@@ -27,7 +27,7 @@ jobs:
       - name: Checkout repository contents
         uses: actions/checkout@v5 # Use the checkout action
       - name: Find files with CRLF endings
-        uses: erclu/check-crlf@v1 # Use the check-crlf action
+        uses: erclu/check-crlf@master # Use the check-crlf action
         id: check-crlf # Assign an id to this step
       - name: Apply dos2unix to files with CRLF endings
         run: |
